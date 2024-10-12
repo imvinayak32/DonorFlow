@@ -6,8 +6,12 @@ const Hero = () => {
       
           <div className="flex flex-col text-white w-[50%] pt-[10%]">
   
-              <span className="text-[30px] mt-3">Donate blood, Save life!</span>
-              <h1 className="text-[38px] mt-3">Your Blood Can Bring Smile In Other Person Life.
+              <span className="text-[42px] mt-3">
+                Donate <span className="text-[#E94545]">blood</span>, Save <span className="text-[#E94545]">life</span>!
+              </span>
+
+              <h1 className="text-[52px] font-bold mt-3">
+                Your <span className="text-[#E94545]">Blood</span> Can Bring <span className="text-[#E94545]">Smile</span> In Other Person Life.
               </h1>
   
               <div className="flex items-center mt-[20px]">
