@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between h-[100px] px-[200px]">
-      // Logo
+      {/* `Logo */}
       <img
         src="/logo1.png"
         alt=""
@@ -13,7 +13,7 @@ const Navbar = () => {
         className="cursor-pointer"
       />
 
-      // Navigation Links
+      {/* Navigation Links */}
       <div className="flex items-center justify-evenly cursor-pointer">
         <Link to="hero" smooth={true} duration={1000} className="mr-3 text-[18px] font-medium">Home</Link>
         <Link to="featured" smooth={true} duration={1000} className="mr-3 text-[18px] font-medium">About Us</Link>

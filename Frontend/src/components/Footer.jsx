@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <div className="bg-gray-100 px-[200px] h-[60vh] mt-[50px]">
         <div className="flex justify-between py-[5%]">
-            // Logo
+            {/* Logo */}
             <div>
                 <img src="/logo1.png" alt="" height={200} width={200} />
                 <span>Saving lives, one donation at a time.</span>
             </div>
 
-            // Quick Link
+            {/* Quick Link */}
             <div>
                 <h3 className="text-xl font-semibold">Quick Links</h3>
                 <ul className="mt-2 space-y-2">
@@ -24,7 +24,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            // Contact Us
+            {/* Contact Us */}
             <div className="w-full md:w-1/3">
                 <h3 className="text-xl font-semibold">Contact Us</h3>
                 <p className="mt-2">123 BloodConnect Ave, City, Country</p>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-        
+
     </div>
   );
 };
